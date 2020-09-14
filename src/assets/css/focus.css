@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.focus {
+  width: 90%;
+  height: 150px;
+  position: relative;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.focus ul {
+  width: 500%;
+  overflow: hidden;
+  margin-left: -100%;
+}
+.focus ul li {
+  float: left;
+  width: 20%;
+  list-style: none;
+}
+.focus ul img {
+  width: 100%;
+}
+.focus ol {
+  position: absolute;
+  bottom: 5px;
+  left:150px;
+}
+.focus ol li {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background-color: gray;
+  border-radius: 4px;
+  transition: all .2s;
+}
+.focus .current {
+  width: 15px;
+}
